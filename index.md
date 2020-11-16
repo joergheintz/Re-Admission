@@ -6,15 +6,15 @@ Readmission rates, defined by the Centers for Medicare and Medicaid Services (CM
 
 
 ## Project Scope and Data Set 
+This project aims to predict the readmission within 30 days of patients at the moment of discharge. You are provided a labeled data set with the following characteristics. Your prediction accuracy should be above 0.60 
 
-This project aims to predict the readmission within 30 days of patients at the moment of discharge. You are provided a labeled data set with the following characteristics. 
-*. Sample Size: 4320  
-*. Number of readmission case : 777  
-*. The ratio of readmission case is 17.9%, and thus the dataset is imbalanced  
-*. Number of features: 832
-*. Binary (Nominal) Variable: 501
-*. Ordinal Variable: 2
-*. Interval Variable: 329
+* Sample Size: 4320  
+* Number of readmission case : 777 
+* The ratio of readmission case is 17.9%, and thus the dataset is imbalanced  
+* Number of features: 832
+* Binary (Nominal) Variable: 501
+* Ordinal Variable: 2
+* Interval Variable: 329
 
 ### Approach
 - Data Cleaning
@@ -23,7 +23,6 @@ This project aims to predict the readmission within 30 days of patients at the m
 - Training Model (k-fold)
 - Validating / Testing the Model
 
-
 ### Classification Models
 - Logistic Regression
 - Random Forrest
@@ -31,35 +30,33 @@ This project aims to predict the readmission within 30 days of patients at the m
 - other you can choose 
 
 ### Data
-
 - [Sample Data Set](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv)
 - [Data Set](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/OSF_Readmission_Data.csv)
 - [Data Dictionary](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/Dictionary.xlsx)
 
 ### Features to begin with:
 - **CMSReadmit [Label]**
-- IPCount180, 
-- MedsVisitBetaBlockers,
-- HCC_CongestiveHeartFailure,
-- MedsVisitAnalgesicsNonnarcotic,
-- EDCount90,
-- BmiClassSpecific,
-- Meds12mo_MedicalDevicesRAW, 
-- IPCount60,
-- PastIP2IPReadmitRate,
-- HCC_DialysisStatus,
-- Meds12mo_AntidotesRAW,
-- Meds12mo_AntihyperlipidemicRAW, 
-- PCP_Listed,
-- HCC_CoagulationDefects,
-- Meds12mo_VitaminsRAW, 
-- Meds12mo_CardiovascularRAW,
-- LOS,
+- IPCount180
+- MedsVisitBetaBlockers
+- HCC_CongestiveHeartFailure
+- MedsVisitAnalgesicsNonnarcotic
+- EDCount90
+- BmiClassSpecific
+- Meds12mo_MedicalDevicesRAW
+- IPCount60
+- PastIP2IPReadmitRate
+- HCC_DialysisStatus
+- Meds12mo_AntidotesRAW
+- Meds12mo_AntihyperlipidemicRAW
+- PCP_Listed
+- HCC_CoagulationDefects
+- Meds12mo_VitaminsRAW
+- Meds12mo_CardiovascularRAW
+- LOS
 - MedsVisitAntianginalAgentsRAW,
-- Obs2Obs180, 
-- PastIP,
-- Meds12mo_AntihypertensiveRAW, 
-- OPCount180, 
-- HCC_AcuteRenalFailure,
+- Obs2Obs180
+- PastIP
+- Meds12mo_AntihypertensiveRAW
+- OPCount180 
+- HCC_AcuteRenalFailure
 - IPCount365
-
