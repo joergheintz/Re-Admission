@@ -10,29 +10,22 @@ Readmission rates, defined by the Centers for Medicare and Medicaid Services (CM
 This project aims to improve upon OSF Healthcare’s current Readmission Risk Model in a meaningful and functionally significant manner by focusing effort on disease specific subsets of the data.  The current production system uses a combination of four sub-models to predict admitted inpa-tient risk of a CMS defined 30-day all-cause readmission.  Training occurred on the general inpa-tient population.  This project focuses on the Heart Failure subset of inpatient admissions with an end goal of creating a Heart Failure specific readmission model that is both an improvement to the current model’s performance on the Heart Failure sub-population and is deployable within our existing production infrastructure.
 
 ```markdown
-The project goal is to 
+# Models
+- Logistic Regression
+- Random Forrest
+- Support Vector Machine
 
-# Header 1
-## Header 2
-### Header 3
+# Approach
+- Data Cleaning
+- Feature Selection
+- Model Selection
+- Training Model
+- Validating / Testing the Model
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+# Download Data
+- Data Set
+- Data Dictionary
+- ...
 
 [https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/joergheintz/Hospital-ReAdmission-Data/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
