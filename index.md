@@ -4,30 +4,11 @@ The Patient Protection and Affordable Care Act (ACA) of 2010 penalizes health sy
 
 Readmission rates, defined by the Centers for Medicare and Medicaid Services (CMS), are a risk-standardized rate of unplanned all-cause readmission after admission for any condition within 30 days of hospital discharge. The indicator is a single summary score that comprises risk-standardized rates of different hospital cohorts e.g. general medicine, surgery/gynecology, cardiorespiratory, cardiovascular, neurology, oncology, and psychiatry. The indicator is calculated by 1-year data and influences reimbursement decisions. 
 
-
 ## Project Scope and Data Set 
-This project aims to predict the readmission within 30 days of patients at the moment of discharge. You are provided a labeled data set with the following characteristics. Your prediction accuracy should be above 0.60 
-
-* Sample Size: 4320  
-* Number of readmission case : 777 
-* The ratio of readmission case is 17.9%, and thus the dataset is imbalanced  
-* Number of features: 832
-* Binary (Nominal) Variable: 501
-* Ordinal Variable: 2
-* Interval Variable: 329
+This project aims to predict the readmission within 30 days of patients at the moment of discharge. You are provided a labeled data set and your prediction accuracy should be above 0.60. The data set is provided is imbalanced and consists of 4320 records of which 777 are readmitted cases. We are provided with 832 features, whereby 501 are binary, 2 ordinal and 329 are interval variables. You are free in choosing your classification models. You should try Logistic Regression, Random Forrest, aSupport Vector Machine, and one other if you wish. 
 
 ### Approach
-- Data Cleaning
-- Feature Selection
-- Model Selection
-- Training Model (k-fold)
-- Validating / Testing the Model
-
-### Classification Models
-- Logistic Regression
-- Random Forrest
-- Support Vector Machine
-- other you can choose 
+We recommend you to start with scanning the sample data set, and then start wtih data cleaning, feature selection (see recommendation below), select your models,  create your test and training data set (5 k-fold is recommended) and start training and testing your models. 
 
 ### Data
 - [Sample Data Set](https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv)
