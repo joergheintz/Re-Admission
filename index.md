@@ -25,7 +25,7 @@ The project goal is to
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[https://github.com/joergheintz/Hospital-ReAdmission-Data/blob/gh-pages/SampleData.csv](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
